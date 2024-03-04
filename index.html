@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oficinas Space Tech</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/jpeg" href="IMG/DS-logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <a href="index.html" id="spacetech"><span>Oficinas</span> <span style="color: #14f809">Space Tech</span></a>
+    <img src="img/DS-logo.jpeg" id="logo">
+  </header>
+  <div class="formulario">
+    <form action="https://formspree.io/f/xayrjzeb" method="post">
+      <div class="form-group">
+        <label for="name">Nome Completo:</label><br>
+        <input type="text" id="name" name="Nome Completo" placeholder="Nome">
+      </div>
+      <div class="form-group">
+        <label for="course">Curso:</label><br>
+        <select id="course" name="Curso" required>
+          <option value="">Selecione o Curso</option>
+          <option value="ADM">Administração</option>
+          <option value="DS">Desenvolvimento de Sistemas</option>
+          <option value="EDF">Edificações</option>
+          <option value="MTM">Multimídia</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="class">Turma:</label><br>
+        <select id="class" name="Turma" required>
+          <option value="">Selecione a Turma</option>
+          <option value="1° ano">1º Ano</option>
+          <option value="2° ano">2º Ano</option>
+          <option value="3° ano">3º Ano</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="workshop">Oficina:</label><br>
+        <select id="workshop" name="Oficina" required>
+          <option value="">Selecione a Oficina</option>
+          <option value="Ande Scrath">Ande Scrath</option>
+          <option value="prt">Oficina B</option>
+          <option value="ctt">Oficina C</option>
+        </select>
+      </div>
+      <button type="submit">Confirmar inscrição</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy;2024 Space Tech</p>
+  </footer>
+</body>
+</html>
