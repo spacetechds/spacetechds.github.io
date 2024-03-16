@@ -16,18 +16,17 @@ body {
 #spacetech {
   text-decoration: none;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "Anta", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-right: 10px;
 }
 
 #logo {
-  margin-left: 10px;
   border-radius: 50%;
-  width: 100px;
+  width: 120px;
 }
+
 
 .formulario {
   display: flex;
