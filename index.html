@@ -12,18 +12,18 @@
 </head>
 <body style="background-image: url(img/backgroundInsc..jpg)">
   <header id="header">
-    <a href="index.html" id="spacetech"><span>Oficinas</span> <span style="color: #14f809">Space Tech</span></a>
+    <a href="index.html" id="spacetech">Oficinas</a>
     <img src="img/logo-st.png" id="logo">
   </header>
   <div class="formulario">
-    <form action="https://formspree.io/f/mleqldpa" method="post">
+    <form action="https://formspree.io/f/mleqldpa" method="post" onsubmit="return validarNome()">
       <div class="form-group">
         <label for="name">Nome Completo:</label><br>
-        <input type="text" id="name" name="Nome Completo" placeholder="Nome">
+        <input type="text" id="name" name="Nome Completo" placeholder="Nome" required>
       </div>
       <div class="form-group">
         <label for="course">Curso:</label><br>
-        <select id="course" name="Curso" required>
+        <select id="course" name="Curso" onchange="mostrarTurmas()" required>
           <option value="">Selecione o Curso</option>
           <option value="ADM">Administração</option>
           <option value="DS">Desenvolvimento de Sistemas</option>
@@ -35,9 +35,6 @@
         <label for="class">Turma:</label><br>
         <select id="class" name="Turma" required>
           <option value="">Selecione a Turma</option>
-          <option value="1° ano">1º Ano</option>
-          <option value="2° ano">2º Ano</option>
-          <option value="3° ano">3º Ano</option>
         </select>
       </div>
       <div class="form-group">
@@ -57,5 +54,6 @@
     <p>&copy; <span>2024 Space Tech</span> - All rights reserved</p>
     <p id="developers"><span>	&lt;&frasl;&gt;</span> by Guilherme Viana and Stylized by Manoel Lobo</p>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>

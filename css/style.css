@@ -5,6 +5,14 @@ body {
   background-color: black;
 }
 
+#header {
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center; 
+}
+
 #spacetech {
   text-decoration: none;
   color: #ffffff;
@@ -12,18 +20,13 @@ body {
   font-family: "Anta", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-right: 10px;
 }
 
 #logo {
+  margin-left: 10px;
   border-radius: 50%;
-  width: 65px;
-}
-
-#header {
-  padding: 10px;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
+  width: 80px;
 }
 
 .formulario {
